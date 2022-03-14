@@ -1,5 +1,12 @@
 # UD6 - Pràctica 2 - Documentem el codi amb JavaDoc
 
+* [1. Modifica la classe `Calculadora.java`](#1-modifica-la-classe-calculadorajava)
+* [2. **Documenta** el codi de la classe `Calculadora` usant comentaris `JavaDoc`:](#2-documenta-el-codi-de-la-classe-calculadora-usant-comentaris-javadoc)
+* [3. **Genera** des d'**eclipse** la documentació **JavaDoc** del projecte.](#3-genera-des-declipse-la-documentació-javadoc-del-projecte)
+* [4. Fes una captura del **codi font** documentat resultant de la classe `Calculadora`](#4-fes-una-captura-del-codi-font-documentat-resultant-de-la-classe-calculadora)
+* [5. Mostra el **resultat** de la documentació:](#5-mostra-el-resultat-de-la-documentació)
+* [6. Afegeix 3 **nous mètodes** a la classe calculadora](#6-afegeix-3-nous-mètodes-a-la-classe-calculadora)
+
 Realitza un *fork* del projecte que es troba a: <https://github.com/arturocandela/2122ed-u6p2>. Una vegada realitzat, crea una nova branca que s'anomene **teunomcognom**  i comprova que pots executar-lo a **eclipse**. Una vegada ho tingues, realitza les tasques següents.
 
 > Cada tasca ha d'estar com a mínim en un commit diferent i la branca **teunomcognom** ha de pujar-se al teu repositori nou creat.
@@ -41,7 +48,7 @@ Realitza totes les captures necessàries per a indicar que has realitzat la tasc
 
 * Mostra el fitxer ***index.html*** en el **Navegador** integrat a **Eclipse** i mostra captures de **TOT** el seu contingut. Fixa't en la correspondència entre les descripcions i tags de les pàgines web ( *html*) generades.
 
-## Afegeix 3 **nous mètodes** a la classe calculadora
+## 6. Afegeix 3 **nous mètodes** a la classe calculadora
 
 ```java
 
