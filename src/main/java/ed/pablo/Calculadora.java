@@ -48,5 +48,63 @@ public class Calculadora {
 	public int diveix(int a, int b) {
 		return a/b;
 	}
-	
+	/**
+	 * Este metodo se encarga de multiplicar un numero n cantidad de veces
+	 * @param numeroMultiplicar corresponde al numero a multiplicar
+	 * @param cantidadDeVecesAMultiplicar corresponde al exponencial
+	 * @return devuelve el resultado de multiplicar el numero, por si mismo, tantas veces como indica el exponente
+	 */
+	public int potenciaDeUnNumero(int numeroMultiplicar , int cantidadDeVecesAMultiplicar ){
+
+		int resultado = 1;
+
+		for ( int i = 0; i < cantidadDeVecesAMultiplicar ; i++ ){
+			resultado = resultado * numeroMultiplicar;
+		}
+		return resultado;
+
+	}
+	/**
+	 * Este metodo se encarga de multiplicar un numero n cantidad de veces
+	 * @param numeroAComprobar corresponde al numero a comprobar
+	 * @return en caso de que el numero sea para devolvera true, en caso contrario, devolvera false
+	 */
+	public boolean esPar ( int numeroAComprobar ){
+
+		boolean resultado;
+
+		if ( numeroAComprobar % 2 == 0) {
+			resultado = true;
+		} else {
+			resultado = false;
+		}
+
+		return resultado;
+
+	}
+	/**
+	 * Este metodo recibe como parametro un numero y dividimos ese numero entre 2 miestras sea mayor que 0,guardando sus modulos.
+	 * @param parametroADividir numero el cual dividiremos.
+	 * @return cadena de caracteres empleada para guardar todos los modulos.
+	 */
+	public String calcularModulos(int parametroADividir){
+
+		String resultado = "";
+		int numeroADividir = parametroADividir;
+		int modulo;
+
+		while ( numeroADividir > 0) {
+
+			modulo = numeroADividir % 2;
+
+			resultado = modulo + resultado;
+
+			numeroADividir = numeroADividir / 2;
+
+
+		}
+		return resultado;
+
+	}
+
 }
